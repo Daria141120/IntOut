@@ -46,7 +46,7 @@ public class RandAccessFileTest {
                 System.out.print(" "+maschar[i]);
                 raf2.writeChar(maschar[i]);
             }
-            System.out.println();
+            System.out.println(); //
 
             for (int i = 0; i< maschar.length; i+=2){
                 raf2.seek(2 * i);
